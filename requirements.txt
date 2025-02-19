@@ -1,0 +1,10 @@
+aiogram
+python-dotenv
+peewee
+peewee-async
+aiopg
+psycopg2-binary
+pyyaml
+loguru
+mixpanel
+black 
