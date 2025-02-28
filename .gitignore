@@ -34,6 +34,7 @@ __pycache__/
 #enviroment
 .venv/
 .env/
+.env
 
 # C extensions
 *.so
@@ -95,5 +96,3 @@ cover/
 
 # PEP 582; used by e.g. github.com/David-OConnor/pyflow
 __pypackages__/
-
-
