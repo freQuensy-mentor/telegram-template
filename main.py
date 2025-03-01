@@ -27,7 +27,7 @@ else:
 async def start_handler(message: Message):
     assert message.from_user
     user, created = await User.aio_get_or_create(
-        telegram_user_id=message.from_user.id, telegram_chat_id=message.from_user.id
+        telegram_user_id=message.from_user.id, telegram_chat_id=message.chat.id
     )
     if created:
         if mixpanel:
